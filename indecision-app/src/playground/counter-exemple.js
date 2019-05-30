@@ -26,7 +26,7 @@ class Counter extends React.Component {
         this.setState(() => {
             return {
                 count: 0
-            }
+            };
         });
     }
     render() {
