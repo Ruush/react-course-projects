@@ -77,8 +77,10 @@ console.log(square(4));
 console.log(add(5,5)) */
 
 
-console.log(__WEBPACK_IMPORTED_MODULE_0__person__["b" /* isAdult */](18))
-console.log(__WEBPACK_IMPORTED_MODULE_0__person__["a" /* canDrink */](19))
+
+console.log(__WEBPACK_IMPORTED_MODULE_0__person__["c" /* isAdult */](18));
+console.log(__WEBPACK_IMPORTED_MODULE_0__person__["a" /* canDrink */](19));
+console.log(__WEBPACK_IMPORTED_MODULE_0__person__["b" /* default */](65));
 
 /***/ }),
 /* 1 */,
@@ -87,10 +89,11 @@ console.log(__WEBPACK_IMPORTED_MODULE_0__person__["a" /* canDrink */](19))
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return canDrink; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return isAdult; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return isAdult; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return isSenior; });
 const isAdult = (age) => age >= 18;
 const canDrink = (age) => age >= 21;
-
+const isSenior = (age) => age >= 65;
 
 
 /***/ })
