@@ -1,3 +1,7 @@
+//
+// Object destructuring
+//
+
 /* const person = {
     //name: "Gabriel",
     age: 26,
@@ -18,7 +22,7 @@ if (city && temperature) {
 };
  */
 
-const book = {
+/* const book = {
     title: "Ego is the Enemy",
     author: "Ryan Holiday",
     publisher: {
@@ -29,3 +33,21 @@ const book = {
 const { name: publisherName = "Self-Published" } = book.publisher;
 
 console.log(publisherName);
+ */
+
+//
+// Array destructuring
+//
+/* 
+const address = ["Ze Bao 23", "São Paulo", "São Paulo", "02280900"];
+
+const [, city, state] = address;
+
+console.log(`You are in ${city} ${state}.`)
+ */
+
+const item = ["Coffee (hot)", "$2.00", "2.50", "2.75"];
+
+const [itemName, , mediumPrice] = item;
+
+console.log(`A medium ${itemName} costs ${mediumPrice}`)
