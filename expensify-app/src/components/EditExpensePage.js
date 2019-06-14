@@ -1,9 +1,11 @@
 import React from "react";
-
-const EditExpensePage = () => (
+//<NavLink to="/edit" activeClassName="is-active">Edit Expense</NavLink>
+const EditExpensePage = (props) => {
+    return (
     <div>
-        This is from my edit expense component
-  </div>
-);
+      Editing the expense with id of {props.match.params.id}
+    </div>
+  )
+};
 
 export default EditExpensePage;
