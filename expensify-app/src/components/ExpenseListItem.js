@@ -1,3 +1,5 @@
+import React from "react";
+
 // Export a stateless functional component
 // Description, amount, createdAt
 const ExpenseListItem = ({ description, amount, createdAt }) => (
