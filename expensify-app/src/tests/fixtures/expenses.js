@@ -5,7 +5,7 @@ export const expensesTest = [{
     description: "Gum",
     note: "",
     amount: 195,
-    createdAt: 0
+    createdAt: moment(0).valueOf()
 }, {
     id: "2",
     description: "Rent",
